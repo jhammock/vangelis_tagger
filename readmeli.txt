@@ -5,11 +5,10 @@ $ sudo g++ -o environments_tagger environments_tagger.cxx
 $ sudo g++ -stdlib=libstdc++ -o environments_tagger environments_tagger.cxx
 -> didn't work. Old version package no longer exists
 
-
 compile using makefile instead
 $ make -f makefile
 ------------------------------------------------------------------------------------------------------- run
-run inside the folder /eol_tagger/ 
+run inside the folder /eol_tagger/
 $ ./environments_tagger ../test_text_data/
 -------------------------------------------------------------------------------------------------------
 Installing libboost in Rhel
@@ -44,10 +43,14 @@ Then I re-compiled by:
 # make -f makefile
 Then run inside /eol_tagger/:
 # ./environments_tagger ../test_text_data/ &> ../eol_tags/eol_tags.tsv
-
-./eol_scripts/exclude-parents-E.pl eol_tags/eol_tags.tsv eol_scripts/envo_child_parent.tsv > eol_tags/eol_tags_noParentTerms.tsv
+Then run outside /eol_tagger/:
+# ./eol_scripts/exclude-parents-E.pl eol_tags/eol_tags.tsv eol_scripts/envo_child_parent.tsv > eol_tags/eol_tags_noParentTerms.tsv
 
 ------------------------------------------------------------------------------------------------------- for Mac OS
 brew install boost
 brew install boost-devel  x
-
+* not successful, abandoned for now...
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
