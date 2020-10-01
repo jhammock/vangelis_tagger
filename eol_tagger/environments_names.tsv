@@ -963,6 +963,7 @@
 1007001590	animal feed
 1007001638	freshwater algal bloom
 1007000023	river
+1007000023	rivers
 1007000039	lagoon
 1007000055	saline marsh
 1007000071	constructed feature
@@ -5110,7 +5111,6 @@
 1007000572	hypogeal
 1007000572	hypogealic
 1007000572	hypogeals
-1007000588	rivers
 1007000588	riverses
 1007000636	artificial landscapes
 1007000636	artificial landscapeses
@@ -5493,7 +5493,6 @@
 1007000495	confluent streams
 1007000495	river tributary
 1007000495	river tributaries
-1007000591	rivers
 1007000591	riverses
 1007001359	dead zone
 1007001407	boulder substrates
